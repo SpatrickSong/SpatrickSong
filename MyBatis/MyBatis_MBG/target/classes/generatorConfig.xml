@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE generatorConfiguration
+        PUBLIC "-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN"
+        "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd">
+<generatorConfiguration>
+    <!--
+        targetRuntime:执行生成的逆向工程的版本
+        MyBatis3Simple:生成基本的CRUD(清新简洁版)
+        MyBatis3:生成带条件的CRUD(奢华尊享版)
+    -->
+
+    <!-- 配置 table 表信息内容体，targetRuntime 指定采用 MyBatis3 的版本 -->
+    <context id="DB2Tables" targetRuntime="MyBatis3">
+        <!-- 抑制生成注释，由于生成的注释都是英文的，可以不让它生成 -->
+<!--        <commentGenerator>
+            <property name="suppressAllComments" value="true"/>
+        </commentGenerator>-->
+        <!-- 配置数据库连接信息 -->
+        <jdbcConnection driverClass="com.mysql.jdbc.Driver"
+                        connectionURL="jdbc:mysql://localhost:3306/mybatis?useUnicode=true&amp;characterEncoding=utf-8"
+                        userId="root"
+                        password="123456">
+        </jdbcConnection>
+        <!-- 生成 model 类，targetPackage 指定 model 类的包名， targetProject 指定
+       生成的 model 放在 eclipse 的哪个工程下面-->
+        <!--javaBean的生成策略
+        enableSubPackages：是否生成子包
+        trimStrings:去掉前后空格
+        -->
+        <javaModelGenerator targetPackage="com.beyondsoft.mybatis.pojo"
+                            targetProject=".\src\main\java">
+            <property name="enableSubPackages" value="true"/>
+            <property name="trimStrings" value="true"/>
+        </javaModelGenerator>
+        <!-- 生成 MyBatis 的 Mapper.xml 文件，targetPackage 指定 mapper.xml 文件的
+       包名， targetProject 指定生成的 mapper.xml 放在 eclipse 的哪个工程下面 -->
+        <!--SQL映射文件的生成策略-->
+        <sqlMapGenerator targetPackage="com.beyondsoft.mybatis.mapper"
+                         targetProject=".\src\main\resources">
+            <property name="enableSubPackages" value="true"/>
+        </sqlMapGenerator>
+        <!-- 生成 MyBatis 的 Mapper 接口类文件,targetPackage 指定 Mapper 接口类的包
+       名， targetProject 指定生成的 Mapper 接口放在 eclipse 的哪个工程下面 -->
+        <!--mspper接口的生成策略-->
+        <javaClientGenerator type="XMLMAPPER"
+                             targetPackage="com.beyondsoft.mybatis.mapper" targetProject="src/main/java">
+            <property name="enableSubPackages" value="true"/>
+        </javaClientGenerator>
+        <!-- 数据库表名及对应的 Java 模型类名 -->
+        <!--逆向工程分析的表-->
+        <!--tableName设置为*号，可以对应所有表，此时不写domainObjectName-->
+        <!--domainObjectName属性指定生成出来的实体类的类名-->
+        <table tableName="t_emp" domainObjectName="Emp"/>
+        <table tableName="t_dept" domainObjectName="Dept"/>
+    </context>
+</generatorConfiguration>
+
