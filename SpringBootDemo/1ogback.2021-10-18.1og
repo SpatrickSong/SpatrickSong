@@ -1,0 +1,123 @@
+2021/10/291-14:50 [main] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter-ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2021/10/291-14:50 [main] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping-6 mappings in 'requestMappingHandlerMapping'
+2021/10/291-14:50 [main] DEBUG org.springframework.web.servlet.handler.SimpleUrlHandlerMapping-Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2021/10/291-14:50 [main] DEBUG org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver-ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2021/10/291-15:03 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2021/10/291-15:03 [http-nio-8080-exec-1] DEBUG org.springframework.web.servlet.DispatcherServlet-Detected StandardServletMultipartResolver
+2021/10/291-15:03 [http-nio-8080-exec-1] DEBUG org.springframework.web.servlet.DispatcherServlet-Detected AcceptHeaderLocaleResolver
+2021/10/291-15:03 [http-nio-8080-exec-1] DEBUG org.springframework.web.servlet.DispatcherServlet-Detected FixedThemeResolver
+2021/10/291-15:03 [http-nio-8080-exec-1] DEBUG org.springframework.web.servlet.DispatcherServlet-Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@575378b3
+2021/10/291-15:03 [http-nio-8080-exec-1] DEBUG org.springframework.web.servlet.DispatcherServlet-Detected org.springframework.web.servlet.support.SessionFlashMapManager@23aa7198
+2021/10/291-15:03 [http-nio-8080-exec-1] DEBUG org.springframework.web.servlet.DispatcherServlet-enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2021/10/291-15:03 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Completed initialization in 2 ms
+2021/10/291-15:03 [http-nio-8080-exec-1] DEBUG org.springframework.web.servlet.DispatcherServlet-GET "/", parameters={}
+2021/10/291-15:03 [http-nio-8080-exec-1] DEBUG org.springframework.web.servlet.handler.SimpleUrlHandlerMapping-Mapped to ResourceHttpRequestHandler [Classpath [META-INF/resources/], Classpath [resources/], Classpath [static/], Classpath [public/], ServletContext [/]]
+2021/10/291-15:03 [http-nio-8080-exec-1] DEBUG org.springframework.web.servlet.resource.ResourceHttpRequestHandler-Resource not found
+2021/10/291-15:03 [http-nio-8080-exec-1] DEBUG org.springframework.web.servlet.DispatcherServlet-Completed 404 NOT_FOUND
+2021/10/291-15:03 [http-nio-8080-exec-1] DEBUG org.springframework.web.servlet.DispatcherServlet-"ERROR" dispatch for GET "/error", parameters={}
+2021/10/291-15:03 [http-nio-8080-exec-1] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping-Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2021/10/291-15:03 [http-nio-8080-exec-1] DEBUG org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor-Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2021/10/291-15:03 [http-nio-8080-exec-1] DEBUG org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor-Writing [{timestamp=Mon Oct 18 15:03:45 CST 2021, status=404, error=Not Found, path=/}]
+2021/10/291-15:03 [http-nio-8080-exec-1] DEBUG org.springframework.web.servlet.DispatcherServlet-Exiting from "ERROR" dispatch, status 404
+2021/10/291-16:06 [http-nio-8080-exec-3] DEBUG org.springframework.web.servlet.DispatcherServlet-GET "/", parameters={}
+2021/10/291-16:06 [http-nio-8080-exec-3] DEBUG org.springframework.web.servlet.handler.SimpleUrlHandlerMapping-Mapped to ResourceHttpRequestHandler [Classpath [META-INF/resources/], Classpath [resources/], Classpath [static/], Classpath [public/], ServletContext [/]]
+2021/10/291-16:06 [http-nio-8080-exec-3] DEBUG org.springframework.web.servlet.resource.ResourceHttpRequestHandler-Resource not found
+2021/10/291-16:06 [http-nio-8080-exec-3] DEBUG org.springframework.web.servlet.DispatcherServlet-Completed 404 NOT_FOUND
+2021/10/291-16:06 [http-nio-8080-exec-3] DEBUG org.springframework.web.servlet.DispatcherServlet-"ERROR" dispatch for GET "/error", parameters={}
+2021/10/291-16:06 [http-nio-8080-exec-3] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping-Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2021/10/291-16:06 [http-nio-8080-exec-3] DEBUG org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor-Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2021/10/291-16:06 [http-nio-8080-exec-3] DEBUG org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor-Writing [{timestamp=Mon Oct 18 16:06:14 CST 2021, status=404, error=Not Found, path=/}]
+2021/10/291-16:06 [http-nio-8080-exec-3] DEBUG org.springframework.web.servlet.DispatcherServlet-Exiting from "ERROR" dispatch, status 404
+16:29:26.583 1ogback [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+16:29:26.653 1ogback [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 6 mappings in 'requestMappingHandlerMapping'
+16:29:26.673 1ogback [main] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+16:29:26.683 1ogback [main] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+17:01:25.010 1ogback [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+17:01:25.050 1ogback [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 7 mappings in 'requestMappingHandlerMapping'
+17:01:25.070 1ogback [main] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+17:01:25.080 1ogback [main] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+17:01:43.679 1ogback [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+17:01:43.680 1ogback [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Detected StandardServletMultipartResolver
+17:01:43.680 1ogback [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Detected AcceptHeaderLocaleResolver
+17:01:43.680 1ogback [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Detected FixedThemeResolver
+17:01:43.681 1ogback [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@2ef0a1e7
+17:01:43.681 1ogback [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Detected org.springframework.web.servlet.support.SessionFlashMapManager@d73cf
+17:01:43.681 1ogback [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+17:01:43.681 1ogback [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+17:01:43.735 1ogback [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - GET "/show", parameters={}
+17:01:43.737 1ogback [http-nio-8080-exec-1] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.beyondsoft.controller.TestController#show()
+17:01:43.743 1ogback [http-nio-8080-exec-1] WARN  c.b.controller.TestController - warn日志
+17:01:43.743 1ogback [http-nio-8080-exec-1] ERROR c.b.controller.TestController - error日志
+17:01:43.903 1ogback [http-nio-8080-exec-1] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'text/html', given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.9, */*;q=0.8] and supported [text/plain, */*, text/plain, */*, application/json, application/*+json, application/json, application/*+json]
+17:01:43.905 1ogback [http-nio-8080-exec-1] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing ["show"]
+17:01:43.925 1ogback [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+17:06:24.729 1ogback [http-nio-8080-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - GET "/", parameters={}
+17:06:24.733 1ogback [http-nio-8080-exec-4] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler [Classpath [META-INF/resources/], Classpath [resources/], Classpath [static/], Classpath [public/], ServletContext [/]]
+17:06:24.735 1ogback [http-nio-8080-exec-4] DEBUG o.s.w.s.r.ResourceHttpRequestHandler - Resource not found
+17:06:24.735 1ogback [http-nio-8080-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - Completed 404 NOT_FOUND
+17:06:24.742 1ogback [http-nio-8080-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - "ERROR" dispatch for GET "/error", parameters={}
+17:06:24.746 1ogback [http-nio-8080-exec-4] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+17:06:24.764 1ogback [http-nio-8080-exec-4] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+17:06:24.764 1ogback [http-nio-8080-exec-4] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [{timestamp=Mon Oct 18 17:06:24 CST 2021, status=404, error=Not Found, path=/}]
+17:06:24.798 1ogback [http-nio-8080-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - Exiting from "ERROR" dispatch, status 404
+17:12:57.789 1ogback [http-nio-8080-exec-6] DEBUG o.s.web.servlet.DispatcherServlet - GET "/ok", parameters={}
+17:12:57.790 1ogback [http-nio-8080-exec-6] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.beyondsoft.controller.SpringController#ok()
+17:12:57.791 1ogback [http-nio-8080-exec-6] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'text/html', given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.9, */*;q=0.8] and supported [text/plain, */*, text/plain, */*, application/json, application/*+json, application/json, application/*+json]
+17:12:57.791 1ogback [http-nio-8080-exec-6] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing ["ok"]
+17:12:57.792 1ogback [http-nio-8080-exec-6] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+17:13:19.330 1ogback [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+17:13:19.380 1ogback [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 7 mappings in 'requestMappingHandlerMapping'
+17:13:19.400 1ogback [main] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+17:13:19.400 1ogback [main] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+17:13:27.336 1ogback [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+17:13:27.336 1ogback [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Detected StandardServletMultipartResolver
+17:13:27.336 1ogback [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Detected AcceptHeaderLocaleResolver
+17:13:27.336 1ogback [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Detected FixedThemeResolver
+17:13:27.337 1ogback [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@246fa28a
+17:13:27.337 1ogback [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Detected org.springframework.web.servlet.support.SessionFlashMapManager@279d9a23
+17:13:27.337 1ogback [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+17:13:27.337 1ogback [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+17:13:27.346 1ogback [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - GET "/ok", parameters={}
+17:13:27.348 1ogback [http-nio-8080-exec-1] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.beyondsoft.controller.SpringController#ok()
+17:13:27.366 1ogback [http-nio-8080-exec-1] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'text/html', given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.9, */*;q=0.8] and supported [text/plain, */*, text/plain, */*, application/json, application/*+json, application/json, application/*+json]
+17:13:27.367 1ogback [http-nio-8080-exec-1] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing ["ok"]
+17:13:27.373 1ogback [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+17:25:53.405 1ogback [http-nio-8080-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - GET "/show", parameters={}
+17:25:53.406 1ogback [http-nio-8080-exec-4] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.beyondsoft.controller.TestController#show()
+17:25:53.407 1ogback [http-nio-8080-exec-4] WARN  c.b.controller.TestController - warn日志
+17:25:53.407 1ogback [http-nio-8080-exec-4] ERROR c.b.controller.TestController - error日志
+17:25:53.408 1ogback [http-nio-8080-exec-4] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'text/html', given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.9, */*;q=0.8] and supported [text/plain, */*, text/plain, */*, application/json, application/*+json, application/json, application/*+json]
+17:25:53.408 1ogback [http-nio-8080-exec-4] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing ["show"]
+17:25:53.410 1ogback [http-nio-8080-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+17:26:15.770 1ogback [main] INFO  c.beyondsoft.app.SpringApplicathions - Starting SpringApplicathions using Java 1.8.0_191 on DESKTOP-RF9DGLL with PID 9668 (C:\Users\WMF.DESKTOP-RF9DGLL\IdeaProjects\SpringBootDemo\target\classes started by WMF in C:\Users\WMF.DESKTOP-RF9DGLL\IdeaProjects\SpringBootDemo)
+17:26:15.770 1ogback [main] INFO  c.beyondsoft.app.SpringApplicathions - No active profile set, falling back to default profiles: default
+17:26:16.551 1ogback [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+17:26:16.611 1ogback [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+17:26:16.611 1ogback [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+17:26:16.611 1ogback [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.53]
+17:26:16.691 1ogback [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+17:26:16.691 1ogback [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 881 ms
+17:26:16.934 1ogback [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+17:26:16.948 1ogback [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+17:26:16.956 1ogback [main] INFO  c.beyondsoft.app.SpringApplicathions - Started SpringApplicathions in 1.679 seconds (JVM running for 2.469)
+17:26:21.874 1ogback [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+17:26:21.874 1ogback [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+17:26:21.875 1ogback [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+17:26:21.891 1ogback [http-nio-8080-exec-1] INFO  c.b.controller.TestController - info日志
+17:26:21.891 1ogback [http-nio-8080-exec-1] WARN  c.b.controller.TestController - warn日志
+17:26:21.891 1ogback [http-nio-8080-exec-1] ERROR c.b.controller.TestController - error日志
+17:31:13.008 1ogback [main] INFO  c.beyondsoft.app.SpringApplicathions - Starting SpringApplicathions using Java 1.8.0_191 on DESKTOP-RF9DGLL with PID 7084 (C:\Users\WMF.DESKTOP-RF9DGLL\IdeaProjects\SpringBootDemo\target\classes started by WMF in C:\Users\WMF.DESKTOP-RF9DGLL\IdeaProjects\SpringBootDemo)
+17:31:13.011 1ogback [main] INFO  c.beyondsoft.app.SpringApplicathions - The following profiles are active: prod
+17:31:13.792 1ogback [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+17:31:13.801 1ogback [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+17:31:13.802 1ogback [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+17:31:13.802 1ogback [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.53]
+17:31:13.883 1ogback [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+17:31:13.883 1ogback [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 825 ms
+17:31:14.130 1ogback [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+17:31:14.145 1ogback [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+17:31:14.152 1ogback [main] INFO  c.beyondsoft.app.SpringApplicathions - Started SpringApplicathions in 1.656 seconds (JVM running for 2.384)
+17:31:26.606 1ogback [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+17:31:26.607 1ogback [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+17:31:26.608 1ogback [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+17:31:26.624 1ogback [http-nio-8080-exec-1] ERROR c.b.controller.TestController - error日志

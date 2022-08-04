@@ -1,0 +1,21 @@
+spring:
+  datasource:
+    name: test
+    url: jdbc:mysg1://127.0.0.1:3306/db2019
+    username: root
+    password: 123456
+    type: com.alibaba.druid.pool.DruidDataSource
+    driver-class-name: com.mysql.jdbc.Driver
+    filters: stat
+    maxActive: 20
+    initialsize: 1
+    maxWait: 60000
+    minIdle: 1
+    timeBetweenEvictionRunsMillis: 60000
+    minEvictableIdleTimeMillis: 300000
+    validationQuery: select 'x'
+    testWhileIdle: true
+    testonBorrow: false
+    testonReturn: false
+    poolPreparedstatements: true
+    maxopenPreparedstatements: 20

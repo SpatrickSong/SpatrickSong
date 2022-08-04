@@ -1,0 +1,11 @@
+com\beyondsoft\sprintbootdemo1\service\UserServiceImpl.class
+com\beyondsoft\sprintbootdemo1\controller\UploadController.class
+com\beyondsoft\sprintbootdemo1\service\EmailServiceImpl.class
+com\beyondsoft\sprintbootdemo1\dao\UserDao.class
+com\beyondsoft\sprintbootdemo1\Sprintbootdemo1Application.class
+com\beyondsoft\sprintbootdemo1\email\EmailConfig.class
+com\beyondsoft\sprintbootdemo1\controller\EmailController.class
+com\beyondsoft\sprintbootdemo1\controller\UserController.class
+com\beyondsoft\sprintbootdemo1\service\EmailService.class
+com\beyondsoft\sprintbootdemo1\service\UserService.class
+com\beyondsoft\sprintbootdemo1\pojo\User.class
